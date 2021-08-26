@@ -1,0 +1,23 @@
+{
+    "products": [],
+    "_array_structures": {
+        "products": {
+            "id_key": "id",
+            "values": [{
+                "label": "Product",
+                "icon": "nature_people",
+                "value": {
+                    "id": "",
+                    "title": "Product Title",
+                    "color": "white"
+                }
+            }]
+        }
+    },
+    "_instance_values": {
+        "id": "UUID"
+    },
+    "_select_data": {
+        "colors": ["white", "cinnamon", "mustard"]
+    }
+}
