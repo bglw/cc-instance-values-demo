@@ -1,23 +1,40 @@
 {
-    "products": [],
-    "_array_structures": {
-        "products": {
-            "id_key": "id",
-            "values": [{
-                "label": "Product",
-                "icon": "nature_people",
-                "value": {
-                    "id": "",
-                    "title": "Product Title",
-                    "color": "white"
-                }
-            }]
-        }
-    },
-    "_instance_values": {
-        "id": "UUID"
-    },
-    "_select_data": {
-        "colors": ["white", "cinnamon", "mustard"]
-    }
+	"products": [
+		{
+			"id": "b51d2f25-5510-4906-b66b-0fbec533777c",
+			"title": "Fantastic T-Shirt",
+			"color": "cinnamon"
+		},
+		{
+			"id": "437481f1-ab6a-4086-b862-c4b7b14bc29b",
+			"title": "Amazing Pants",
+			"color": "mustard"
+		}
+	],
+	"_array_structures": {
+		"products": {
+			"id_key": "id",
+			"values": [
+				{
+					"label": "Product",
+					"icon": "nature_people",
+					"value": {
+						"id": "",
+						"title": "Product Title",
+						"color": "white"
+					}
+				}
+			]
+		}
+	},
+	"_instance_values": {
+		"id": "UUID"
+	},
+	"_select_data": {
+		"colors": [
+			"white",
+			"cinnamon",
+			"mustard"
+		]
+	}
 }
