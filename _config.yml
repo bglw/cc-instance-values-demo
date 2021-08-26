@@ -1,0 +1,24 @@
+title: Instance Value Demo Website
+
+_instance_values:
+  _id: UUID
+  _datetime: NOW
+
+_array_structures:
+  blocks:
+    style: select
+    id_key: _include
+    values:
+      - label: Title
+        icon: title
+        value:
+          _include: title.html
+          _id:
+          title: Hello World
+      - label: Paragraph
+        icon: article
+        value:
+          _include: paragraph.html
+          _id:
+          _datetime:
+          paragraph_text: Hello World
